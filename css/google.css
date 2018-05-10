@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+#container{
+  width: 580px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+#logo{
+  margin-left: 90px;
+  background-position: center;
+}
+input[type="search"]{
+  width: 500px;
+  padding: 4px;
+  display: block;
+  margin-top: 15px;
+}
+input[type="submit"]{
+  margin-left: 60px;
+  width: 25%;
+  background: #eee;
+  color: #333;
+  border: solid 1px #ccc;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+input[type="submit"]:hover{
+  cursor: pointer;
+}
+p{
+  font-size: 13px;
+  margin-left: 150px;
+  margin-top: 15px;
+}
+nav#header{
+  text-align: right;
+  padding: 20px;
+}
+nav#header ul li{
+  display: inline;
+}
+nav#header ul li a:link,
+nav#header ul li a:visited,
+footer nav ul li a:link,
+footer nav ul li a:visited{
+  color: #555;
+  text-decoration: none;
+  padding: 10px;
+}
+nav#header ul li a:hover{
+  text-decoration:underline;
+}
+footer{
+  background: #eee;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+footer nav ul li{
+  display: inline;
+}
+footer nav ul li a:hover{
+  text-decoration:underline;
+}
+footer nav{
+  padding: 20px;
+}
+footer ul li{
+  float: left;
+}
+footer nav ul.right_links{
+  float: right;
+  text-align: right;
+}
+.clear_fix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
